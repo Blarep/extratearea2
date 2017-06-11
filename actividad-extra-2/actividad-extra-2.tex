@@ -6,6 +6,7 @@
 \usepackage[colorlinks, urlcolor=blue]{hyperref}
 \usepackage{fourier}
 \usepackage[top = 2.5cm, bottom = 2cm, left = 2.5cm, right = 2.5cm]{geometry}
+\pagestyle{empty}
 \usepackage{tikz}
 \usetikzlibrary{positioning,arrows}
 \usepackage{pgf}
@@ -33,13 +34,13 @@ every picture/.append style={
 \begin{enumerate}
 \item Busque y mencione dos ejemplos prácticos donde se utilicen grafos en problemas de la computación.
 
-Dado que los grafos en la computación se usan para representar de forma cómoda relaciones entre objetos,podemos dar como ejemplo el uso de estos para la representación de una red de transporte, pudiendo ser esta un sistema de metros en donde las relaciones vendrían a ser las conexiones entre las estaciones. Otra aplicación de estos podria ser su uso en problemas de optimización para establecer conexiones más directas entre objetos.
+Dado que los grafos en la computación se usan para representar de forma cómoda relaciones entre objetos, podemos dar como ejemplo el uso de estos para la representación de una red de transporte, pudiendo ser esta un sistema de metros en donde las relaciones vendrían a ser las conexiones entre las estaciones. Otra aplicación de estos podría ser su uso en problemas de optimización para establecer conexiones más directas entre objetos.
 
 \item Escriba la definición formal de un grafo y mencione 2 ejemplos indicando que representan los arcos y vértices.
 
-Un grafo consta de un conjunto no vacio de vertices finitos(V) y un conjunto de arcos(E), que corresponden a pares de vertices pertenecientes a V. 
+Un grafo consta de un conjunto no vacío de vértices finitos(V) y un conjunto de arcos(E), que corresponden a pares de vértices pertenecientes a V. 
 
-Grafo de relaciones amorosas, en donde los vertices representan a las personas y los arcos, a si estos se han relacionado amorosamente.
+Grafo de relaciones amorosas, en donde los vértices representan a las personas y los arcos, a si estos se han relacionado amorosamente.
 
 \begin{tikzpicture}[y=.3cm, x=.3cm,font=\normalsize]
 \draw (0,0) -- (5,5);
@@ -75,7 +76,7 @@ Grafo de relaciones amorosas, en donde los vertices representan a las personas y
 
 \end{tikzpicture}
 
-Grafo de paises colindantes, en donde los vertices representan a los paises y los arcos si estos estan uno al lado del otro.
+Grafo de países colindantes, en donde los vértices representan a los países y los arcos si estos están uno al lado del otro.
 
 \begin{tikzpicture}[y=.3cm, x=.3cm,font=\normalsize]
 \draw (0,0) -- (7,0);
@@ -190,6 +191,20 @@ roundnode/.style={circle, draw=green!60, fill=green!5, very thick, minimum size=
 10&0&0&1&0&0&0&0&0&0&0\\ \hline
 \end{tabular}
 
+\hfill
+
+\hfill
+
+\hfill
+
+\hfill
+
+\hfill
+
+\hfill
+
+\hfill
+
 \item Grafo isomorfo:
 
 \begin{tikzpicture}[
@@ -232,11 +247,11 @@ roundnode/.style={circle, draw=green!60, fill=green!5, very thick, minimum size=
 \item En la sección \textbf{24.4} aparecen algunas familias especiales de grafos, describa \textbf{informalmente}, es decir, con sus propias palabras, de que se trata cada una de ellas.
 
 \begin{itemize}
-\item $P_{n}$: Este grafo posee la caracteristica de que cada uno de sus vertices esta, como maximo, conectado con otros dos. Esto significa que, si poseemos una lista de vertices, cada uno podría estar conectado al nodo siguiente, teniendo el primer y ú vertice una sola conexion y el resto de ellos con dos conexiones. Posee una forma similar a una hilera.
-\item $C_{n}$: Este grafo posee la caracteristica de que su representación gráfica se puede visualizar una figura geometrica. Aquí, si poseemos una lista de vertices, cada uno podria estar conectado al nodo siguiente, pero ahora el último y el primero tambien estarian conectado entre si. 
-\item $K_{n}$:Este grafo posee la caracteristica de que cada vertice esta conectado con todos los demás.
-\item $W_{n}$: Este grafo es una modificación del grafo $C_{n}$ en donde este posee un vertice central conectado a todos los demás vertices. 
-\item $Q_{n}$:Este grafo posee la caracteristica de tener una cantidad de vertices que es múltiplo de 4. Cada conjunto de 4 vertices forma un grafo $C_{n}$ (visualmente se aprecian cuadrados). Entonces cada cuadrado, si la cantidad de vertices lo permite, estaría encerrado por otro cuadrado, en donde cada vertice del cuadrado exterior estaria conectado con el vertice del cuadrado interior más cercano a el.
+\item $P_{n}$: Este grafo posee la característica de que cada uno de sus vértices esta, como máximo, conectado con otros dos. Esto significa que, si poseemos una lista de vértices, cada uno podría estar conectado al nodo siguiente, teniendo el primer y último vértice una sola conexión y el resto de ellos con dos conexiones. Posee una forma similar a una hilera.
+\item $C_{n}$: Este grafo posee la característica de que su representación gráfica se puede visualizar una figura geométrica. Aquí, si poseemos una lista de vértices, cada uno podría estar conectado al nodo siguiente, pero ahora el último y el primero también estarían conectado entre sí. 
+\item $K_{n}$: Este grafo posee la característica de que cada vértice está conectado con todos los demás.
+\item $W_{n}$: Este grafo es una modificación del grafo $C_{n}$ en donde este posee un vértice central conectado a todos los demás vértices. 
+\item $Q_{n}$: Este grafo posee la característica de tener una cantidad de vértices que es múltiplo de 4. Cada conjunto de 4 vértices forma un grafo $C_{n}$ (visualmente se aprecian cuadrados). Entonces cada cuadrado, si la cantidad de vértices lo permite, estaría encerrado por otro cuadrado, en donde cada vértice del cuadrado exterior estaría conectado con el vértice del cuadrado interior más cercano a él.
 \end{itemize}  
 \end{enumerate}
 \end{document}
