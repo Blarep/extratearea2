@@ -10,29 +10,24 @@
 \usetikzlibrary{positioning,arrows}
 \usepackage{pgf}
 \usepackage{color}
+\tikzset{
+every picture/.append style={
+  execute at begin picture={\deactivatequoting},
+  execute at end picture={\activatequoting}
+  }
+}
 
 
 \title{Estructuras Discretas \\
        Actividad Extra \#2 \\
        ``Grafos''}
-\author{Alondra Rojas Ruz}
-\date{02 de junio, 2017}
+\author{Andrés  Navarro \\ (201673001-K)}
+\date{}
 
 \begin{document}
 \maketitle
 \thispagestyle{empty}
 
-%Esta actividad es optativa y quienes la realicen pueden optar hasta 5 puntos en el certamen 1. Es un complemento a lo visto en clases sobre inducción.
-
-\section*{Instrucciones}
-
-\begin{itemize}
-    \item Lea atentamente desde la sección \textbf{24.1} hasta la sección \textbf{24.5} del capítulo 4 \href{https://moodle.inf.utfsm.cl/pluginfile.php?file=\%2F64673\%2Fmod_resource\%2Fcontent\%2F2\%2Fclases-0.83.pdf}{apunte} del curso, encontrado en la sección \textbf{material de clases}. Asegúrese de entender los conceptos principales relacionados a la teoría de grafos, para luego discutirlos en clases.
-    \item Puede complementarlo con investigación propia.
-    \item A partir de su lectura responda las siguientes preguntas (todas deben estar correctamente justificadas):
-    
-\end{itemize}
-    
 \section*{Preguntas}
     
 \begin{enumerate}
@@ -40,7 +35,6 @@
 
 Dado que los grafos en la computación se usan para representar de forma cómoda relaciones entre objetos,podemos dar como ejemplo el uso de estos para la representación de una red de transporte, pudiendo ser esta un sistema de metros en donde las relaciones vendrían a ser las conexiones entre las estaciones. Otra aplicación de estos podria ser su uso en problemas de optimización para establecer conexiones más directas entre objetos.
 
-\hspace*{\fill}(1 punto)  
 \item Escriba la definición formal de un grafo y mencione 2 ejemplos indicando que representan los arcos y vértices.
 
 Un grafo consta de un conjunto no vacio de vertices finitos(V) y un conjunto de arcos(E), que corresponden a pares de vertices pertenecientes a V. 
@@ -84,68 +78,165 @@ Grafo de relaciones amorosas, en donde los vertices representan a las personas y
 Grafo de paises colindantes, en donde los vertices representan a los paises y los arcos si estos estan uno al lado del otro.
 
 \begin{tikzpicture}[y=.3cm, x=.3cm,font=\normalsize]
-\draw (0,0) -- (5,0);
+\draw (0,0) -- (7,0);
 \draw (0,0) -- (0,5);
 \draw (0,0) -- (3,3);
 \draw (3,3) -- (10,10);
-\draw(5,0)--(10,10);
+\draw(7,0)--(10,10);
 \draw(0,5)--(10,10);
 \draw (10,0)--(10,10);
 \draw (0,5)--(10,10);
-\draw (5,0)--(10,0);
+\draw (7,0)--(10,0);
 \draw (0,5)--(3,3);
-\draw (5,0)--(3,3);
-\draw (12,2)--(3,3);
-\draw (12,2)--(5,0);
-\draw (12,2)--(10,10);
+\draw (7,0)--(3,3);
+\draw (6,2)--(3,3);
+\draw (6,2)--(7,0);
+\draw (6,2)--(10,10);
 
 \filldraw[fill=black!40,draw=black!80] (0,0) circle (3pt)   ;
 \filldraw[fill=black!40,draw=black!80] (0,5) circle (3pt)    ;
-\filldraw[fill=black!40,draw=black!80] (5,0) circle (3pt)    ;
+\filldraw[fill=black!40,draw=black!80] (7,0) circle (3pt)    ;
 \filldraw[fill=black!40,draw=black!80] (3,3) circle (3pt)  ;
 \filldraw[fill=black!40,draw=black!80] (10,10) circle (3pt)  ;
 \filldraw[fill=black!40,draw=black!80] (10,0) circle (3pt)  ;
 \filldraw[fill=black!40,draw=black!80] (3,3) circle (3pt)  ;
 \filldraw[fill=black!40,draw=black!80] (3,3) circle (3pt)  ;
-\filldraw[fill=black!40,draw=black!80] (12,2) circle (3pt)  ;
+\filldraw[fill=black!40,draw=black!80] (6,2) circle (3pt)  ;
 
-\node [above] at (0,5) {$Perú$};
+\node [above] at (0,5) {\textit{Perú}};
 \node [below] at (0,0) {$Chile$};
-\node [right] at (12,2) {$Paraguay$};
+\node [right] at (6,2) {$Paraguay$};
 \node [right] at (10,0) {$Uruguay$};
-\node [above, rotate=45] at (3,3) {$Bolivia$};
-\node [below] at (5,0) {$Argentina$};
-\node [right][] at (10,10) {$Brasil$};
+\node [above] at (3,3) {$Bolivia$};
+\node [below] at (7,0) {$Argentina$};
+\node [right] at (10,10) {$Brasil$};
 \end{tikzpicture}
 
 \item Invente un grafo con 10 vértices y represéntelo utilizando \emph{lista de adyacencia}, \emph{matriz de adyacencia} y \emph{gráficamente} y luego dibuje un grafo \emph{isomorfo} al grafo que inventó.
 
+\hfill
+
+\hfill
+
+\begin{itemize}
+\item Representación gráfica:
+
 \begin{tikzpicture}[
-roundnode/.style={circle, draw=green!60, fill=green!5, very thick, minimum size=7mm},
-squarednode/.style={rectangle, draw=red!60, fill=red!5, very thick, minimum size=5mm},
+roundnode/.style={circle, draw=green!60, fill=green!5, very thick, minimum size=7mm}
 ]
-%Nodes
-\node[squarednode]      (maintopic)                              {2};
-\node[roundnode]        (uppercircle)       [above=of maintopic] {1};
-\node[squarednode]      (rightsquare)       [right=of maintopic] {3};
-\node[roundnode]        (lowercircle)       [below=of maintopic] {4};
+
+\node[roundnode] (1)       {1};
+\node[roundnode] (2)       [above right=of 1] {2};
+\node[roundnode] (6)       [above right=of 2] {6};
+\node[roundnode] (3)       [below right=of 6] {3};
+\node[roundnode] (7)       [above right=of 3]{7};
+\node[roundnode] (4) 	  [below right=of 7]{4};
+\node[roundnode] (5) 	  [below right=of 4]{5};
+\node[roundnode] (8) 	  [above=of 6]{8};
+\node[roundnode] (9) 	  [above=of 7]{9};
+\node[roundnode] (10) 	  [above right=of 8]{10};
  
-%Lines
-\draw[->] (uppercircle.south) -- (maintopic.north);
-\draw[->] (maintopic.east) -- (rightsquare.west);
-\draw[->] (rightsquare.south) .. controls +(down:7mm) and +(right:7mm) .. (lowercircle.east);
+\draw [->] (1) -- (2);
+\draw [->](1) edge [bend right] (5);
+\draw[->] (2) -- (3);
+\draw[->] (4) -- (3);
+\draw [->] (5) edge [bend right] (10);
+\draw [->] (1) edge [bend left] (10);
+\draw [->] (9) edge (10);
+\draw [->] (8) edge (10);
+\draw [->] (5)--(4);
+\draw [->] (7) -- (9);
+\draw [->] (6)--(8);
+\draw [->] (3) edge [bend right] (7);
+\draw [->] (3) edge [bend left] (6);
+\draw [->] (4) edge [bend right] (7);
+\draw [->] (2) edge [bend left] (6);
+\draw [->] (5) edge [bend left] (1);
+\draw [->] (6) edge [bend right] (9);
+\draw [->] (7) edge [bend left] (8);
+\draw [->] (10) -- (3);
 \end{tikzpicture}
 
-\hspace*{\fill}(2 puntos)  
+\item Lista de adyacencia:
+
+\begin{tabular}{|c|c|}
+\hline
+\textbf{V} & \textbf{Ady} \\ \hline
+1 & 2,5,10\\ \hline
+2 & 3,6\\ \hline
+3 & 6,7\\ \hline
+4 & 3,7\\ \hline
+5 & 1,4,10\\ \hline
+6 & 8,9\\ \hline
+7 & 8,9\\ \hline
+8 & 10\\ \hline
+9 & 10\\ \hline
+10 & 3\\ \hline
+\end{tabular}
+\item Matriz de adyacencia:
+
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+&1&2&3&4&5&6&7&8&9&10\\ \hline
+1&0&1&0&0&1&0&0&0&0&1\\ \hline
+2&0&0&1&0&0&1&0&0&0&0\\ \hline
+3&0&0&0&0&0&1&1&0&0&0\\ \hline
+4&0&0&1&0&0&0&1&0&0&0\\ \hline
+5&1&0&0&1&0&0&0&0&0&1\\ \hline
+6&0&0&0&0&0&0&0&1&1&0\\ \hline
+7&0&0&0&0&0&0&0&1&1&0\\ \hline
+8&0&0&0&0&0&0&0&0&0&1\\ \hline
+9&0&0&0&0&0&0&0&0&0&1\\ \hline
+10&0&0&1&0&0&0&0&0&0&0\\ \hline
+\end{tabular}
+
+\item Grafo isomorfo:
+
+\begin{tikzpicture}[
+roundnode/.style={circle, draw=green!60, fill=green!5, very thick, minimum size=7mm}
+]
+
+\node[roundnode] (2)       {2};
+\node[roundnode] (1)       [right=of 2] {1};
+\node[roundnode] (10)       [right=of 1] {10};
+\node[roundnode] (5)       [right=of 10] {5};
+\node[roundnode] (4)       [right=of 5]{4};
+\node[roundnode] (6) 	  [below right=of 2]{6};
+\node[roundnode] (8) 	  [below right=of 6]{8};
+\node[roundnode] (7) 	  [below left=of 4]{7};
+\node[roundnode] (9) 	  [below left=of 7]{9};
+\node[roundnode] (3) 	  [below=of 10]{3};
+ 
+\draw [->] (1) -- (2);
+\draw [->](1) edge [bend left] (5);
+\draw[->] (2) -- (3);
+\draw[->] (4) -- (3);
+\draw [->] (5) -- (10);
+\draw [->] (1) -- (10);
+\draw [->] (9) edge [bend right](10);
+\draw [->] (8) edge [bend left](10);
+\draw [->] (5)--(4);
+\draw [->] (7) edge [bend left] (9);
+\draw [->] (6)edge [bend right](8);
+\draw [->] (3) -- (7);
+\draw [->] (3) -- (6);
+\draw [->] (4) edge [bend left] (7);
+\draw [->] (2) edge [bend right] (6);
+\draw [->] (5) edge [bend right] (1);
+\draw [->] (6) -- (9);
+\draw [->] (7) -- (8);
+\draw [->] (10) -- (3);
+\end{tikzpicture}
+\end{itemize}
 
 \item En la sección \textbf{24.4} aparecen algunas familias especiales de grafos, describa \textbf{informalmente}, es decir, con sus propias palabras, de que se trata cada una de ellas.
 
-\hspace*{\fill}(1 punto)  
+\begin{itemize}
+\item $P_{n}$: Este grafo posee la caracteristica de que cada uno de sus vertices esta, como maximo, conectado con otros dos. Esto significa que, si poseemos una lista de vertices, cada uno podría estar conectado al nodo siguiente, teniendo el primer y ú vertice una sola conexion y el resto de ellos con dos conexiones. Posee una forma similar a una hilera.
+\item $C_{n}$: Este grafo posee la caracteristica de que su representación gráfica se puede visualizar una figura geometrica. Aquí, si poseemos una lista de vertices, cada uno podria estar conectado al nodo siguiente, pero ahora el último y el primero tambien estarian conectado entre si. 
+\item $K_{n}$:Este grafo posee la caracteristica de que cada vertice esta conectado con todos los demás.
+\item $W_{n}$: Este grafo es una modificación del grafo $C_{n}$ en donde este posee un vertice central conectado a todos los demás vertices. 
+\item $Q_{n}$:Este grafo posee la caracteristica de tener una cantidad de vertices que es múltiplo de 4. Cada conjunto de 4 vertices forma un grafo $C_{n}$ (visualmente se aprecian cuadrados). Entonces cada cuadrado, si la cantidad de vertices lo permite, estaría encerrado por otro cuadrado, en donde cada vertice del cuadrado exterior estaria conectado con el vertice del cuadrado interior más cercano a el.
+\end{itemize}  
 \end{enumerate}
-
-
-
-%% Pregunta 3
-
-  \vfill\hfill ARR/\LaTeXe
 \end{document}

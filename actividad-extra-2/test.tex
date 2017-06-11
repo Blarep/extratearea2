@@ -1,0 +1,30 @@
+\documentclass[spanish, fleqn]{article}
+\usepackage{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amsfonts}
+\usepackage{enumitem}
+\usepackage[colorlinks, urlcolor=blue]{hyperref}
+\usepackage{fourier}
+\usepackage[top = 2.5cm, bottom = 2cm, left = 2.5cm, right = 2.5cm]{geometry}
+\usepackage{tikz}
+\usetikzlibrary{positioning,arrows}
+\usepackage{pgf}
+\usepackage{color}
+
+\begin{document}
+
+\begin{tikzpicture}[node distance=2cm]
+
+% nodes
+\node (A) at (0, 0) {A};
+\node (B) at (1, 1) {B};
+\node (C) at (2, 1.5) {C};
+\node (D) at (3, 0) {D};
+
+% arrows
+\draw[->, to path={-| (\tikztotarget)}]
+  (A) edge (B) (B) edge (C) (C) edge (D);
+
+\end{tikzpicture}
+
+\end{document}

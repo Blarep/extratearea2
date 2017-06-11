@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2017.6.5)  11 JUN 2017 15:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2017.6.5)  11 JUN 2017 11:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**actividad-extra-2.tex
-(./actividad-extra-2.tex
+**test.tex
+(./test.tex
 LaTeX2e <2017/01/01> patch level 3
 Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
 (/usr/share/texmf-dist/tex/latex/base/article.cls
@@ -1140,65 +1140,62 @@ File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
 File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
 \arrowsize=\dimen175
 ))
-(./actividad-extra-2.aux
-LaTeX Info: Redefining \. on input line 23.
-LaTeX Info: Redefining \% on input line 23.
-)
-\openout1 = `actividad-extra-2.aux'.
+(./test.aux)
+\openout1 = `test.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 27.
-LaTeX Font Info:    Try loading font information for FML+futm on input line 27.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 14.
+LaTeX Font Info:    Try loading font information for FML+futm on input line 14.
 
  (/usr/share/texmf-dist/tex/latex/fourier/fmlfutm.fd
 File: fmlfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futm.
 )
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 27.
-LaTeX Font Info:    Try loading font information for FMS+futm on input line 27.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 14.
+LaTeX Font Info:    Try loading font information for FMS+futm on input line 14.
 
 
 (/usr/share/texmf-dist/tex/latex/fourier/fmsfutm.fd
 File: fmsfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FMS/futm.
 )
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 27.
-LaTeX Font Info:    Try loading font information for FMX+futm on input line 27.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 14.
+LaTeX Font Info:    Try loading font information for FMX+futm on input line 14.
 
 
 (/usr/share/texmf-dist/tex/latex/fourier/fmxfutm.fd
 File: fmxfutm.fd futm-extension
 )
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 27.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 14.
 
 (/usr/share/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Try loading font information for T1+futs on input line 27.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Try loading font information for T1+futs on input line 14.
 
 (/usr/share/texmf-dist/tex/latex/fourier/t1futs.fd
 File: t1futs.fd 2004/03/02 Fontinst v1.926 font definitions for T1/futs.
 )
-LaTeX Info: Redefining \. on input line 27.
-LaTeX Info: Redefining \% on input line 27.
+LaTeX Info: Redefining \. on input line 14.
+LaTeX Info: Redefining \% on input line 14.
 \AtBeginShipoutBox=\box40
-Package hyperref Info: Link coloring ON on input line 27.
+Package hyperref Info: Link coloring ON on input line 14.
 
 (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1208,13 +1205,11 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count135
 )
-LaTeX Info: Redefining \ref on input line 27.
-LaTeX Info: Redefining \pageref on input line 27.
-LaTeX Info: Redefining \nameref on input line 27.
-
-(./actividad-extra-2.out) (./actividad-extra-2.out)
+LaTeX Info: Redefining \ref on input line 14.
+LaTeX Info: Redefining \pageref on input line 14.
+LaTeX Info: Redefining \nameref on input line 14.
 \@outlinefile=\write4
-\openout4 = `actividad-extra-2.out'.
+\openout4 = `test.out'.
 
 
 *geometry* driver: auto-detecting
@@ -1282,155 +1277,185 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Try loading font information for FML+futmi on input line 29
-.
+! Argument of \language@active@arg> has an extra }.
+<inserted text> 
+                \par 
+l.25 \draw[->, to path={-| (\tikztotarget)}]
+                                            
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
 
-(/usr/share/texmf-dist/tex/latex/fourier/fmlfutmi.fd
-File: fmlfutmi.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futmi.
-)
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 29.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 29.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 29.
-LaTeX Font Info:    Try loading font information for U+msa on input line 29.
+Runaway argument?
+! Paragraph ended before \language@active@arg> was complete.
+<to be read again> 
+                   \par 
+l.25 \draw[->, to path={-| (\tikztotarget)}]
+                                            
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
 
-(/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 29.
+Runaway argument?
+-
+! Paragraph ended before \pgfkeys@addpath was complete.
+<to be read again> 
+                   \par 
+l.25 \draw[->, to path={-| (\tikztotarget)}]
+                                            
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
 
-(/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 29.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 29.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 29.
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 31.
-Missing character: There is no ; in font nullfont!
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 107.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 107.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 107.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 107.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 107.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 107.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language append on input line 160.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language append on input line 160.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language append on input line 160.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language append on input line 160.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language append on input line 160.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language append on input line 160.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language append on input line 160.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language append on input line 160.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language append on input line 160.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language append on input line 160.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language append on input line 160.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language append on input line 160.
- [1
+! Missing \endcsname inserted.
+<to be read again> 
+                   \par 
+l.25 \draw[->, to path={-| (\tikztotarget)}]
+                                            
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 164.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language append on input line 230.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language append on input line 230.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language append on input line 230.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language append on input line 230.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language append on input line 230.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language append on input line 230.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language append on input line 230.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language append on input line 230.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language append on input line 230.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language append on input line 230.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language append on input line 230.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language append on input line 230.
- [2]
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language append on input line 242.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language append on input line 242.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language append on input line 242.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language append on input line 242.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language append on input line 242.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language append on input line 242.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language append on input line 242.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language append on input line 242.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language append on input line 242.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language append on input line 242.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language append on input line 242.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language append on input line 242.
- [3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 242.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 242.
- (./actividad-extra-2.aux
-LaTeX Info: Redefining \. on input line 23.
-LaTeX Info: Redefining \% on input line 23.
-)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 242.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 242.
-Package rerunfilecheck Info: File `actividad-extra-2.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 242.
- ) 
+! Missing \endcsname inserted.
+<to be read again> 
+                   \par 
+l.25 \draw[->, to path={-| (\tikztotarget)}]
+                                            
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \par 
+l.25 \draw[->, to path={-| (\tikztotarget)}]
+                                            
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+Runaway argument?
+-
+! Paragraph ended before \pgfkeys@splitter was complete.
+<to be read again> 
+                   \par 
+l.25 \draw[->, to path={-| (\tikztotarget)}]
+                                            
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+Missing character: There is no / in font nullfont!
+Missing character: There is no / in font nullfont!
+Runaway argument?
+\relax \pgfkeysifdefined {/handlers/\pgfkeyscurrentname /.@cmd}{\pgfkeys@ifexec
+utehandler \ETC.
+! Paragraph ended before \pgfkeys@remove@slash was complete.
+<to be read again> 
+                   \par 
+l.27 
+     
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Extra }, or forgotten \endgroup.
+\endpgfpicture ...globally \endgroup \hss \egroup 
+                                                  \pgf@restore@layerlist@fro...
+l.28 \end{tikzpicture}
+                      
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.28 \end{tikzpicture}
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Extra }, or forgotten \endgroup.
+\endpgfpicture ...dpicture \endgroup \hss \egroup 
+                                                  \pgfsys@typesetpicturebox ...
+l.28 \end{tikzpicture}
+                      
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.28 \end{tikzpicture}
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: \begin{tikzpicture} on input line 16 ended by \end{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30 \end{document}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 30.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 30.
+(./test.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 30.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 30.
+
+
+Package rerunfilecheck Warning: File `test.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `test.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 30.
+ )
+(\end occurred inside a group at level 1)
+
+### semi simple group (level 1) entered at line 16 (\begingroup)
+### bottom level
+(\end occurred when \ifcsname on line 25 was incomplete)
+(\end occurred when \ifcsname on line 25 was incomplete)
+(\end occurred when \ifcsname on line 25 was incomplete)
+(\end occurred when \ifcsname on line 25 was incomplete)
+(\end occurred when \ifcsname on line 25 was incomplete)
+(\end occurred when \ifx on line 25 was incomplete)
+(\end occurred when \ifx on line 25 was incomplete) 
 Here is how much of TeX's memory you used:
- 19018 strings out of 493013
- 345150 string characters out of 6139318
- 432002 words of memory out of 5000000
- 22204 multiletter control sequences out of 15000+600000
- 75275 words of font info for 86 fonts, out of 8000000 for 9000
+ 18772 strings out of 493013
+ 341072 string characters out of 6139318
+ 407017 words of memory out of 5000000
+ 22010 multiletter control sequences out of 15000+600000
+ 8625 words of font info for 16 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,6n,60p,475b,903s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fon
-ts/type1/adobe/utopia/putb8a.pfb></usr/share/texmf-dist/fonts/type1/adobe/utopi
-a/putr8a.pfb></usr/share/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on actividad-extra-2.pdf (3 pages, 59439 bytes).
+ 55i,6n,54p,420b,477s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+No pages of output.
 PDF statistics:
- 44 PDF objects out of 1000 (max. 8388607)
- 35 compressed objects within 1 object stream
- 9 named destinations out of 1000 (max. 500000)
+ 6 PDF objects out of 1000 (max. 8388607)
+ 4 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
